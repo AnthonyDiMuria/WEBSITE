@@ -1,0 +1,34 @@
+
+
+p {
+  color:pink;
+  font-family: monospace;
+  font-size: 20px;
+  text-align: center;
+}
+
+#header {
+  width: 90%;
+  border: 2px solid gray;
+  margin: 50px;
+  text-align: center;
+  padding: 30px
+}
+
+#header a {
+  margin: 40px;
+  padding: 15px;
+  font-family: courier;
+}
+
+.title {
+color:blue;
+}
+
+.content {
+  background-color:green;
+}
+
+a:hover {
+  color:purple;
+}
