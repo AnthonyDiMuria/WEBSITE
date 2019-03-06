@@ -1,12 +1,14 @@
 
 * {
   font-family: ABeeZee;
+  min-width: 30%;
 }
 
 
 
 body {
-background-image: url("farm.jpg")
+background-image: url("yes.png");
+background-size:;
 }
 
 p {
@@ -68,6 +70,7 @@ color:black;
   background-color: rgba(255,255,255,0.75);
   padding: 20px;
   position: relative;
+  margin-top: 60px;
   left: 1%;
   width: 95%;
 
@@ -88,30 +91,44 @@ color:black;
   height: 800px;
 }
 
-#anthony p {
-  text-align: center;
+#anthony {
+  display: inline-block;
+  width: 400px;
+  margin-right: 40px;
+}
+
+#samantha {
+  display: inline-block;
+  width: 400px;
+  margin-left: 40px;
+}
+
+#images {
+  width: 970px;
+  min-width: 950px;
+  margin: 30px auto;
+  position: relative;
+  left: 35px;
+}
+
+#a {
   display: inline-block;
   width: 500px;
-  margin: 0 auto;
-  position: relative;
-  top: -150px;
+  float: left;
 }
 
-#samantha p {
-  text-align: center;
+#b {
   display: inline-block;
   width: 500px;
-  margin: 0 auto;
-  position: relative;
-  top: 150px;
-  left: 850px;
+  float: right;
+  text-align: right;
 }
 
 
-#imgb {
-  float:right;
-}
 
+div #sortoftitle {
+  text-align: center;
+}
 
 table{
   width: 90%;
@@ -129,6 +146,20 @@ tr {
   border: 1px solid black;
 }
 
-td {
+td img {
+  margin: 40px auto;
+}
+
+#map {
+  width: 900px;
+  min-width: 900px;
+  height: 505px;
   margin: 0 auto;
+  border: 2px solid black;
+  border-radius: 1px;
+
+}
+
+#clothingintro p {
+  text-align: center;
 }
