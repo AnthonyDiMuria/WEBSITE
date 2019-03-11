@@ -7,8 +7,7 @@
 
 
 body {
-background-image: url("yes.png");
-background-size:;
+background-image: url("ducks.jpg");
 }
 
 p {
@@ -35,8 +34,10 @@ p {
 }
 
 #header a:hover {
-  color: white;
-  background-color: black;
+  color: black;
+text-decoration: underline;
+
+0
 }
 
 #chickens {
@@ -57,9 +58,15 @@ p {
 color:black;
 }
 
+.ctitle {
+color:black;
+text-align: center;
+}
+
 .subtitle {
   text-align: center;
-  opacity: 0.75;
+  opacity: 1;
+  border: 1px solid red;
   background-color: white;
   width: 375px;
   margin: 50px auto;
@@ -67,8 +74,9 @@ color:black;
 }
 
 .content {
-  background-color: rgba(255,255,255,0.75);
+  background-color: rgba(255,255,255,1);
   padding: 20px;
+  border: 1px solid red;
   position: relative;
   margin-top: 60px;
   left: 1%;
@@ -135,6 +143,7 @@ table{
   border: 2px solid black;
   margin: 30px auto;
   padding: 30px;
+  margin-bottom: 300px;
 }
 
 td {
@@ -150,6 +159,8 @@ td img {
   margin: 40px auto;
 }
 
+
+
 #map {
   width: 900px;
   min-width: 900px;
@@ -162,4 +173,41 @@ td img {
 
 #clothingintro p {
   text-align: center;
+}
+
+.contact {
+  text-align: center;
+
+}
+
+.contact p {
+  display: inline;
+  margin: 0 10px;
+}
+
+.contact p #contactus {
+  display: block;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+
+}
+
+
+  dropdown:hover .dropdown-content {
+  display: block;
+
+}
+
+img #lcenter {
+  margin: 0 auto;
+  display: none;
 }
