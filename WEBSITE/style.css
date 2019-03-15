@@ -4,7 +4,55 @@
   min-width: 30%;
 }
 
+.dropbtn {
+  padding: 30px 55px;
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+  border: none;
+  background-color: white;
+}
 
+.dropbtn:hover {
+  background-color: black !important;
+  color: white !important;
+}
+
+.dropdown {
+  position: relative;
+  display: inline;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: black;
+  color:white !important;
+  min-width: 260px;
+  left: 0%;
+  top:51px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: block !important;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+  color:white !important;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color:;
+}
 
 body {
 background-image: url("ducks.jpg");
@@ -34,8 +82,8 @@ p {
 }
 
 #header a:hover {
-  color: black;
-text-decoration: underline;
+  background-color: black;
+  color: white;
 
 0
 }
@@ -84,6 +132,10 @@ text-align: center;
 
 }
 
+.content h1 {
+  display: inline;
+}
+
 #middlecontent {
   opacity: 0.75;
 }
@@ -91,7 +143,7 @@ text-align: center;
 
 .content p {
   font-size: 20px;
-  text-indent: 30px;
+  text-indent: 50px;
   line-height: 1.6;
 }
 
@@ -144,6 +196,7 @@ table{
   margin: 30px auto;
   padding: 30px;
   margin-bottom: 300px;
+  text-align: left;
 }
 
 td {
@@ -177,6 +230,16 @@ td img {
 
 .contact {
   text-align: center;
+  background-color: white;
+  display: inline-block;
+  padding: 20px 0 40px 0;
+  position: static;
+  width: 800px;
+  height: 160px;
+  position: relative;
+  margin: 30px auto;
+  left: 28%;
+  border: 1px solid red;
 
 }
 
@@ -210,4 +273,22 @@ td img {
 img #lcenter {
   margin: 0 auto;
   display: none;
+}
+
+
+table h1 {
+  display: inline-block;
+  text-align: center;
+  width: 30%;
+  min-width: 150px;
+  position: absolute;
+}
+
+
+#table img {
+margin: 30px 0;
+
+}
+
+#table {
 }
