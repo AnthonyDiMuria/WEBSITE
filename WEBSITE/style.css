@@ -10,7 +10,6 @@
   text-decoration: none;
   color: black;
   border: none;
-  background-color: white;
 }
 
 .dropbtn:hover {
@@ -70,8 +69,8 @@ p {
   display: inline-block;
   border: 2px solid gray;
   margin: 20px auto;
-  background-color: white;
-  opacity: 0.75;
+  background-color: rgba(256, 256, 256, 0.88);
+  opacity: 0.88;
   position: fixed;
   left: 3%;
   top: -10px;
@@ -129,6 +128,7 @@ text-align: center;
   margin-top: 60px;
   left: 1%;
   width: 95%;
+  min-width: 1225px;
 
 }
 
@@ -175,6 +175,7 @@ text-align: center;
   display: inline-block;
   width: 500px;
   float: left;
+  text-indent: 0px;
 }
 
 #b {
@@ -182,12 +183,14 @@ text-align: center;
   width: 500px;
   float: right;
   text-align: right;
+    text-indent: 0px;
 }
 
 
 
 div #sortoftitle {
   text-align: center;
+  text-indent: 0px;
 }
 
 table{
@@ -233,12 +236,11 @@ td img {
   background-color: white;
   display: inline-block;
   padding: 20px 0 40px 0;
-  position: static;
   width: 800px;
   height: 160px;
+  margin-top: 30px;
   position: relative;
-  margin: 30px auto;
-  left: 28%;
+  left: 25%;
   border: 1px solid red;
 
 }
@@ -291,4 +293,81 @@ margin: 30px 0;
 }
 
 #table {
+}
+
+
+
+
+.left {
+  display: inline-block;
+  width: 400px;
+  border: 1px solid black;
+  padding: 50px;
+  margin-left: 100px;
+  height: 400px;
+}
+
+.right {
+  display: inline-block;
+  width: 400px;
+  border: 1px solid black;
+  padding: 50px;
+  float: right;
+  margin-right: 100px;
+  height: 400px;
+}
+
+
+
+.right img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 60px;
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+}
+
+.left img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 60px;
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+}
+
+
+.clothes {
+  margin: 50px 0;
+  min-width: 2000px;
+}
+
+.sub {
+  margin: 110px 0;
+  min-width: 1225px;
+
+}
+
+.left p {
+  text-align: center;
+  text-indent: 0px;
+}
+
+.right p {
+  text-align: center;
+  text-indent: 0px;
+}
+
+
+::-moz-selection {
+  color: red;
+  background: yellow;
+}
+
+::selection {
+  color: red; 
+  background: yellow;
 }
