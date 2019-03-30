@@ -4,6 +4,8 @@
   min-width: 30%;
 }
 
+/* The above code applies to the entire website (which is what the "*" designates) */
+
 .dropbtn {
   padding: 30px 55px;
   font-size: 20px;
@@ -53,6 +55,8 @@
   background-color:;
 }
 
+/* Above is the CSS controlling the dropdown menu */
+
 body {
 background-image: url("ducks.jpg");
 }
@@ -72,6 +76,7 @@ p {
   background-color: rgba(256, 256, 256, 0.88);
   opacity: 0.88;
   position: fixed;
+  /* Position "fixed" makes it so it stays in the same place as one scrolls */
   left: 3%;
   top: -10px;
   text-align: center;
@@ -84,7 +89,7 @@ p {
   background-color: black;
   color: white;
 
-0
+/* Elements can change style values when hovered or selected */
 }
 
 #chickens {
@@ -129,6 +134,8 @@ text-align: center;
   left: 1%;
   width: 95%;
 
+  /* Our main content boxes are dictated by this CSS */
+
 }
 
 .content h1 {
@@ -142,26 +149,30 @@ text-align: center;
 
 .content p {
   font-size: 20px;
-  text-indent: 50px;
+  text-indent: 50px; /* Indents all of our main paragraph text */
   line-height: 1.6;
 }
 
 #content2 {
-  height: 800px;
+  height: 950px;
 }
 
 #anthony {
   display: inline-block;
   width: 400px;
-  height: 400px;
+  height: 500px;
   margin-right: 40px;
+  border: 2px solid black;
+
 }
 
 #samantha {
   display: inline-block;
   width: 400px;
-  height: 400px;
+  height: 500px;
   margin-left: 40px;
+  border: 2px solid black;
+
 }
 
 .name {
@@ -222,6 +233,8 @@ tr {
 td img {
   margin: 40px auto;
 }
+
+/* Congratulations! You found REDUNDANT CODE. We kept it so that if we ever felt the need to add a table, we wouldn't have to re-do the CSS */
 
 
 
@@ -366,16 +379,22 @@ margin: 30px 0;
 }
 
 
-::-moz-selection {
-  color: red;
-  background: yellow;
-}
+
 
 ::selection {
   color: red;
   background: yellow;
-
+/* Controls text highlight selection (these colors correspond to our theme) */
 }
+
+
+::-moz-selection {
+  /* This is for Firefox */
+  color: red;
+  background: yellow;
+}
+
+
 
 a {
   color: red;
@@ -423,6 +442,7 @@ center {
   min-width: 50px;
   max-height: 50px;
   min-height: 50px;
+  /* Unfortunately, the "width" and "height" attributes were not working, so this odd method had to be used */
   position: relative;
   top: 16px;
   margin-right: 10px;
@@ -437,3 +457,18 @@ center {
   margin: 30px 30px;
   display: inline-block;.
 }
+
+video {
+  margin: 0 auto;
+  width: 666px;
+  border: 2px solid red;
+}
+
+.video {
+  display: block;
+  width: 666px;
+  margin: 40px auto;
+  float: center;
+}
+
+/* Our CSS is a little lengthy and at times redundant, but it shouldn't affect the performance of the website too much */

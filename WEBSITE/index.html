@@ -4,17 +4,18 @@
 
 <html>
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8"> <!-- Necessary for metadata to register properly -->
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href='https://fonts.googleapis.com/css?family=ABeeZee' rel='stylesheet'>
+    <!-- We used a Google font by accessing a public Google API stylesheet -->
     <title>Chic Chickens - Home</title>
-    <link rel="icon" href="./icon2.jpg"/>
+    <link rel="icon" href="./icon2.jpg"/> <!-- Page title icon -->
     <meta name="description" content="Chicken Clothing">
     <meta name="keywords" content="chickens,chic,clothing,home">
     <!-- Description and keywords for the specific webpage -->
 </head>
 <body>
-  <!-- This is out header, which is used on every page. -->
+  <!-- This is our header, which is used on every page. -->
   <div id="header">
       <a href="./index.html">Home</a>
       <div class="dropdown">
@@ -29,7 +30,7 @@
       <a href="./blog.html">Reviews</a>
       <a href="./map.html">Map</a>
     </div>
-  <h1 id="chickens">Chic Chickens</h1>
+  <h1 id="chickens">Chic Chickens</h1> <!-- Main page title -->
   <div class="content"> <!-- All out main "content" is oraganized into a div class="content" to keep it uniform across all pages -->
 <h1 class="title">About Us</h1>
 <p>Here at Chic Chickens, we strive to make chickens from all over feel great in their own wings. Our brand does not have a certain stereotype, we fit chickens with those groovy curves all the way to that styling slim figure. The ultimate goal as a brand, is for every chicken should feel comfortable and confident in our clothing.
@@ -41,8 +42,9 @@
 <div class="content" id="content2">
 
 <div id="images">
-<img src="./farm.jpg" id="anthony">
-<img src="./farm.jpg" id="samantha">
+<img src="./ddd.jpg" id="anthony">
+<img src="./anthonyp.jpeg" id="samantha">
+<!-- Profile images -->
 </div>
 
   <p id="a"><span class="name">SAMMY - </span>I grew up in the suburbs of Kentucky. As a kid, I would help my dad run our farm. I was homeschooled, so I spent a lot of time in the fields and dirt. Tending the chickens with my dad, was my all time favorite thing to do! He treasured those chickens like they were his own children. When my father passed away, I took it as my responsibility to continue his chicken legacy, that is why I have decided to start my brand, Chic Chickens.
@@ -54,27 +56,40 @@
 
 <h1 class="subtitle">Our Story<h1>
 
-<div class="content" id="content2">
+<div class="content" >
 <div id="p">
   <p>The love that we have for animals came from our childhood. Our farm is located in Independence, Kentucky. It is a family run farm. When we were kids, we would help our parents out with the farm chores. Anthony would help our father out with gathering the hay, cleaning the stalls, and doing the dirty work. Sammy would help out our mother with cleaning the house, bathing most of the animals, and collecting the eggs from the chickens. Sammy’s favorite thing was to gather the eggs. Our parents started the farm back in 1996. Now in 2019, us siblings have taken it over. </p>
   <p> All 75 acres of land gets a little lonely. That is why we had the idea to start a business. It gives us the opportunity to travel into the city more and express our love for animals. Creating a business as siblings can be pretty challenging considering we are great at arguing. The number one thing we realized when working together is that we both specialize in our own areas. Saying that, Anthony focuses a lot on the in depth coding of the website and the feeding of the animals. Sammy works mostly on the fine tunes of the website and a lot with the design, marketing, and manufacturing of the clothing. </p>
 
 <img src="./farm.jpg" id="farm">
 <br>
-<center>This is a view of our extensive open-range farm in Kentucky. We are proud to say that all of out chickens are raised cage-free.</center>
+<center>This is a view of our extensive open-range farm in Kentucky. We are proud to say that all of our chickens are raised cage-free.</center>
+<!-- "center" element used here. We could've used a class, but decided not to --> 
 
 </div>
 </p>
 </div>
 
 <div class="content">
-  <video></video>
+	<div class="video">
+<video controls>
+  <source src="chickens.mp4" type="video/mp4">
+  <p>Your browser doesn't support HTML5 video. Here is
+     a <a href="https://www.youtube.com/watch?v=mEFOpi_vsN4">link to the video</a> instead.</p>
+     <!-- If you have a really old web browser, you might not be able to see the HTML5 video, so there is an alternate link here -->
+</video>
+</div>
+
+<center id="marginabove">
+	This is a video of a portion of our farm. We raise our chickens in an open environnment.
+
+</center>
 </div>
 
 
 <div class="contact">
 <h6 id="contactus">CONTACT US!</h6>
-<p>EMAIL: <a href="mailto:chicchickens@gmail.com" class="email">chicchickens@gmail.com</a></p>
+<p>EMAIL: <a href="mailto:chicchickens@gmail.com" class="email">chicchickens@gmail.com</a></p> <!-- "Email" link allows users to click and email -->
 <p>PHONE: <a class="phone">303-903-1165</a></p>
 </div>
 
@@ -88,6 +103,7 @@
 
 <div class="content">
   <center> © 2019 All Rights Reserved ChicChickens.com</center>
+  <!-- Copyright information (present on each page -->
 </div>
 
 </body>
